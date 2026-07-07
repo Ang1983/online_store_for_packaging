@@ -1,5 +1,6 @@
 import { Link } from 'react-router';
 import { ArrowRight, Package, Palette, Truck, Wand2, ShoppingBag, Play } from 'lucide-react';
+import bgImage from '../../imports/a80882ac3d49822ec0af2dd99f039fcd_6a5c160f-28ec-4bb0-8b62-8c375dc052bf.png';
 
 const CATEGORIES = [
   {
@@ -49,7 +50,7 @@ export default function HomePage() {
       <section className="relative bg-primary text-white overflow-hidden"> 
         <div
           className="absolute inset-0 bg-no-repeat bg-right bg-cover opacity-20 pointer-events-none"
-          style={{ backgroundImage: from '../../imports/a80882ac3d49822ec0af2dd99f039fcd_6a5c160f-28ec-4bb0-8b62-8c375dc052bf' }}
+          style={{ backgroundImage: `url(${bgImage})` }}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/95 to-primary/60 pointer-events-none"/>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-28 md:py-40 relative">
