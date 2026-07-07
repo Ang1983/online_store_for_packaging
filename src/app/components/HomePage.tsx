@@ -52,7 +52,7 @@ export default function HomePage() {
           className="absolute inset-0 bg-no-repeat bg-right bg-cover opacity-20 pointer-events-none"
           style={{ 
               backgroundImage: `url(${bgImage})`,
-              backgroundPosition: '130% center',
+              backgroundPosition: '140% center',
               backgroundSize: '80%'
           }}
         />
