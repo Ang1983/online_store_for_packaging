@@ -36,7 +36,7 @@ export default function AboutPage() {
             <h2 className="text-3xl mb-6">Наша история</h2>
             <div className="space-y-4 text-gray-700">
               <p>
-                <strong>GiftWrap</strong> — российская компания, специализирующаяся на производстве
+                <strong>Дело в коробке</strong> — российская компания, специализирующаяся на производстве
                 премиальной упаковки для подарков, мероприятий и бизнеса с 2015 года.
               </p>
               <p>
