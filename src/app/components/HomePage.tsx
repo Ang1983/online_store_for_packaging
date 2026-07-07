@@ -50,7 +50,11 @@ export default function HomePage() {
       <section className="relative bg-primary text-white overflow-hidden"> 
         <div
           className="absolute inset-0 bg-no-repeat bg-right bg-cover opacity-20 pointer-events-none"
-          style={{ backgroundImage: `url(${bgImage})` }}
+          style={{ 
+              backgroundImage: `url(${bgImage})`,
+              backgroundPosition: '130% center',
+              backgroundSize: '80%'
+          }}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/95 to-primary/60 pointer-events-none"/>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-28 md:py-40 relative">
