@@ -238,7 +238,6 @@ export default function HomePage() {
       <section className="py-24 bg-primary text-white relative overflow-hidden">
         <div
           className="absolute inset-0 opacity-10 bg-no-repeat bg-right-bottom bg-contain pointer-events-none"
-          style={{ backgroundImage: "url('https://images.unsplash.com/photo-1549465220-1a8b9238cd48?w=600&fit=crop')" }}
         />
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative">
           <h2 className="text-4xl md:text-5xl mb-5 leading-tight">Готовы создать уникальную упаковку?</h2>
