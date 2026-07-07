@@ -2,7 +2,7 @@ import { Outlet, Link, useLocation } from 'react-router';
 import { ShoppingCart, Phone, Home, Grid3x3, MessageCircle, Send, X, Wand2 } from 'lucide-react';
 import { useCart } from '../context/CartContext';
 import { useState, useRef, useEffect } from 'react';
-import logoImg from 'src/imports/a80882ac3d49822ec0af2dd99f039fcd_6a5c160f-28ec-4bb0-8b62-8c375dc052bf.png';
+import logoImg from '../../imports/a80882ac3d49822ec0af2dd99f039fcd_6a5c160f-28ec-4bb0-8b62-8c375dc052bf.png';
 
 const PHONE_NUMBER = '+7 (495) 123-45-67';
 const PHONE_RAW = '74951234567';
