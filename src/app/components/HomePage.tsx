@@ -46,7 +46,7 @@ export default function HomePage() {
     <div className="bg-background">
 
       {/* ── Hero ───────────────────────────────────────────────────── */}
-      <section className="relative bg-primary text-white overflow-hidden">
+      <section className="relative bg-primary text-white overflow-hidden"> 
         <div
           className="absolute inset-0 bg-no-repeat bg-right bg-cover opacity-20 pointer-events-none"
           style={{ backgroundImage: from '../../imports/a80882ac3d49822ec0af2dd99f039fcd_6a5c160f-28ec-4bb0-8b62-8c375dc052bf }}
