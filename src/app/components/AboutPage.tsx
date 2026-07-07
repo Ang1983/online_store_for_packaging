@@ -148,11 +148,11 @@ export default function AboutPage() {
                 <Mail className="w-9 h-9 text-primary" />
               </div>
               <h3 className="mb-3 text-lg">Email</h3>
-              <a href="mailto:info@giftwrap.ru" className="text-gray-600 hover:text-primary transition-colors">
-                info@giftwrap.ru
+              <a href="mailto:info@delovkorobke.ru" className="text-gray-600 hover:text-primary transition-colors">
+                info@delovkorobke.ru
               </a>
-              <a href="mailto:sales@giftwrap.ru" className="text-gray-600 hover:text-primary transition-colors">
-                sales@giftwrap.ru
+              <a href="mailto:sales@delovkorobke.ru" className="text-gray-600 hover:text-primary transition-colors">
+                sales@delovkorobke.ru
               </a>
             </div>
 
