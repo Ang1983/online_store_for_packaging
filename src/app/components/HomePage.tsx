@@ -183,7 +183,7 @@ export default function HomePage() {
       <section className="py-24 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-14 max-w-xl">
-            <h2 className="text-4xl md:text-5xl mb-3 tracking-tight text-gray-900">Категории упаковки</h2>
+            <h2 className="text-4xl md:text-5xl mb-3 tracking-tight text-gray-900">Виды упаковки</h2>
             <p className="text-gray-500">Посмотрите готовые товары или создайте свой дизайн</p>
           </div>
 
