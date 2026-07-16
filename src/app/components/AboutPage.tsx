@@ -73,7 +73,6 @@ export default function AboutPage() {
                     тратя непомерные деньги на упаковку, мы постоянно искали решение, которое сочетало бы в себе ключевые факторы:
                   </p>
                 </div>
-          <div>
                 <div>
                   <h3 className="mb-2 text-lg">Превосходное качество</h3>
                   <p className="text-gray-600 leading-relaxed">
