@@ -50,6 +50,7 @@ export default function AboutPage() {
                 которая подчеркнет ценность вашего подарка и внимание к получателю.
               </p>
             </div>
+          </div>
 
           <div>
             <h2 className="text-3xl mb-6">Почему выбирают нас</h2>
