@@ -1,6 +1,14 @@
 import type { Product } from './products';
 import type { ApiProductDetail } from './api';
 
+export const categories = [
+  { id: 'boxes', name: 'Коробки', icon: 'Package' },
+  { id: 'bags', name: 'Пакеты', icon: 'ShoppingBag' },
+  { id: 'pouches', name: 'Мешочки', icon: 'Gift' },
+  { id: 'wrapping', name: 'Обёртки', icon: 'Sparkles' },
+  { id: 'events', name: 'Для мероприятий', icon: 'Wand2' },
+] as const;
+
 export function adaptProduct(api: ApiProductDetail): Product {
   return {
     id: String(api.id),
